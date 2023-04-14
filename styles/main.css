@@ -1,0 +1,22 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.time-display-container {
+    margin-top: 3%;
+    color: #323232;
+}
+
+.time-display {
+    font-size: 3em;
+}
+
+.col {
+    /* how does this even work? a top margin with a percentage, seems stupid. */
+    margin-top: 20%;
+    color: rgb(126, 126, 126);
+}
+#github-link {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
