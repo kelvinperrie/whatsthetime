@@ -8,11 +8,13 @@ body {
 
 .time-display {
     font-size: 3em;
+    margin-bottom: 0.5em;
+    display: inline-block;
 }
 
 .col {
     /* how does this even work? a top margin with a percentage, seems stupid. */
-    margin-top: 20%;
+    margin-top: 10%;
     color: rgb(126, 126, 126);
 }
 #github-link {
