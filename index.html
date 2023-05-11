@@ -41,6 +41,8 @@
             let upOrDownSwitch = 0;     // are we going to add or remove hours
             let timeFlex = 0;           // how many minutes / hours are we going to add & decrease
 
+            // this determines whether we are going to increase or decrease the current time, 
+            // and also by how many minutes/hours
             function ConfigureWeirdness() {
                 let newUpOrDownSwitch = 0;
                 let newTimeFlex = 0;
@@ -54,9 +56,6 @@
 
                 upOrDownSwitch = newUpOrDownSwitch;
                 timeFlex = newTimeFlex;
-
-                //upOrDownSwitch = randomIntFromInterval(0,100);  // 0 to 100 is more exciting than just 0 to 1?????
-                //timeFlex = randomIntFromInterval(1,3);
             }
 
             function GetAndDisplayTime() {
